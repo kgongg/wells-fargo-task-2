@@ -22,14 +22,24 @@ public class Portfolio {
         this.creationDate = creationDate;
     }
 
-    public void setCreationDate(String creationDate) { this.creationDate = creationDate; }
+    public void setCreationDate(String creationDate) {
+        this.creationDate = creationDate;
+    }
 
-    public void setClient(Client client) { this.client = client; }
+    public void setClient(Client client) {
+        this.client = client;
+    }
 
-    public long getPortfolioId() { return PortfolioId; }
+    public long getPortfolioId() {
+        return PortfolioId;
+    }
 
-    public Client getClient() { return client; }
+    public Client getClient() {
+        return client;
+    }
 
-    public String getCreationDate() { return creationDate; }
+    public String getCreationDate() {
+        return creationDate;
+    }
 
 }

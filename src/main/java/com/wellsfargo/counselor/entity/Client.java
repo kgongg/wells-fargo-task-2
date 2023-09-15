@@ -48,7 +48,9 @@ public class Client {
         return clientId;
     }
 
-    public Advisor getAdvisor() { return advisor; }
+    public Advisor getAdvisor() {
+        return advisor;
+    }
 
     public void setAdvisor(Advisor advisor) { this.advisor = advisor; }
 
