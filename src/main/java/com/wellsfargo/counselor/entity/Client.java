@@ -34,6 +34,7 @@ public class Client {
     protected Client() {
 
     }
+
     public Client(Advisor advisor, String firstName, String lastName, String address, String phone, String email) {
         this.advisor = advisor;
         this.firstName = firstName;
